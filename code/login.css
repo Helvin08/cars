@@ -10,10 +10,6 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   transition: background 0.3s ease;
 }
-.body{
-  background-image: href("D:\website\login page\image/car.webp");
-}
-
 .form:hover {
   background: linear-gradient(45deg, rgb(139, 0, 0), rgb(235, 135, 135));
 }
