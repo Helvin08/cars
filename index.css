@@ -17,6 +17,15 @@ h1 {
   margin-left: 80%;
 }
 
+.text-grunge {
+  font-size: 50px;
+  color: #fcfcfc; 
+}
+.text-color {
+  font-size: 50px;
+  color:rgb(144, 0, 0);; 
+}
+
 /* bar */
 .button-container {
   display: flex;
