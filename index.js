@@ -19,8 +19,8 @@ function login() {
     alert("Successfully Create your Account");
   }
   //first page box
-  function bmw() {
-    window.location.href = "/cars/bmw.html"; 
+  function BMW() {
+    window.location.href = "/cars/BMW.html"; 
   }
   function benz() {
     window.location.href = "/cars/Mercedes Benz.html"; 
@@ -71,7 +71,10 @@ function login() {
   function Hyundai() {
     window.location.href ="/cars/Hyundai.html"; 
   }
-  function Chrysleri() {
+  function Subaru() {
+    window.location.href ="/cars/Subaru.html"; 
+  }
+  function Chrysler() {
     window.location.href ="/cars/Chrysler.html"; 
   }
   function Cadillac() {
