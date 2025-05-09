@@ -9,80 +9,28 @@
   </head>
   <body>
     <div class="nav">
-      <na>
+      <div class="nav-content">
         <img
           src="/image/CARS HUBX.png"
           alt="Cars HubX"
-          whidth="70"
+          width="70"
           height="70"
         />
-
         <h1 class="text-grunge"><i>Cars Hub<h1 class="text-color">X</h1></i></h1>
-      </na>
-    </div>
-    <div class="header">
-      <div class="button-container">
-        <button class="button">
-          <svg
-            class="icon"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 1024 1024"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <a href="index.html" class="link">
-              <path
-                d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"
-              ></path>
-            </a>
-          </svg>
-        </button>
-        <button class="button">
-          <svg
-            class="icon"
-            stroke="currentColor"
-            fill="none"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <a href="search bar.html" class="link">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              ></path>
-            </a>
-          </svg>
-        </button>
-        <button class="button">
-          <svg
-            class="icon"
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 24 24"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <a href="login.html" class="link">
-              <path
-                d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"
-              ></path>
-            </a>
-          </svg>
+        <button onclick="login()" type="button1" class="btn">
+          <strong>Login</strong>
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>
+          <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
         </button>
       </div>
     </div>
     <center>
-      <div class="box">
+      <div onclick="Volvo()" class="box">
         <img
           src="/image/volvo.jpg"
           width="200px"
@@ -90,10 +38,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Volvo.html" class="link"><h2>Volvo</h2></a>
+         <h2>Volvo</h2>
         </center>
       </div>
-      <div class="box">
+      <div onclick="Skoda()" class="box">
         <img
           src="/image/skoda.png"
           width="200px"
@@ -101,11 +49,11 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Skoda.html" class="link"><h2>Škoda</h2></a>
+          <h2>Škoda</h2>
         </center>
       </div>
 
-      <div class="box">
+      <div onclick="mclaren()" class="box">
         <img
           src="/image/mclaren.jpg"
           width="200px"
@@ -113,12 +61,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/mclaren.html" class="link"
-            ><h2>Mclaren</h2></a
-          >
+          <h2>Mclaren</h2>
         </center>
       </div>
-      <div class="box">
+      <div onclick="GMC()" class="box">
         <img
           src="/image/gmc.jpg"
           width="200px"
@@ -126,10 +72,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/GMC.html" class="link"><h2>GMC</h2></a>
+          <h2>GMC</h2>
         </center>
       </div>
-      <div class="box">
+      <div onclick="Infiniti()" class="box">
         <img
           src="/image/infiniti.jpg"
           width="200px"
@@ -137,12 +83,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Infiniti.html" class="link"
-            ><h2>Infiniti</h2></a
-          >
+          <h2>Infiniti</h2>
         </center>
       </div>
-      <div class="box">
+      <div onclick="Lincoln()" class="box">
         <img
           src="/image/lincoln.jpg"
           width="200px"
@@ -150,12 +94,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Lincoln.html" class="link"
-            ><h2>Lincoln</h2></a
-          >
+          <h2>Lincoln</h2>
         </center>
       </div>
-      <div class="box">
+      <div onclick="Pontiac()" class="box">
         <img
           src="/image/pontiac.jpg"
           width="200px"
@@ -163,12 +105,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Pontiac.html" class="link"
-            ><h2>Pontiac</h2></a
-          >
+         <h2>Pontiac</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Saab()" class="box2">
         <img
           src="/image/Saab.jpg"
           width="200px"
@@ -176,10 +116,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Saab.html" class="link"><h2>Saab</h2></a>
+          <h2>Saab</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Genesis()" class="box2">
         <img
           src="/image/genesis.jpg"
           width="200px"
@@ -187,12 +127,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Genesis.html" class="link"
-            ><h2>Genesis</h2></a
-          >
+          <h2>Genesis</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Suzuki()" class="box2">
         <img
           src="/image/Suzuki.jpg"
           width="200px"
@@ -200,10 +138,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Suzuki.html" class="link"><h2>Suzuki</h2></a>
+         <h2>Suzuki</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Mitsubishi()" class="box2">
         <img
           src="/image/Mitsubishi.jpg"
           width="200px"
@@ -211,12 +149,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Mitsubishi.html" class="link"
-            ><h2>Mitsubishi</h2></a
-          >
+          <h2>Mitsubishi</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Citroen()" class="box2">
         <img
           src="/image/Citroen.webp"
           width="200px"
@@ -224,12 +160,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Citroen.html" class="link"
-            ><h2>Citroën</h2></a
-          >
+          <h2>Citroën</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Fiat()" class="box2">
         <img
           src="/image/Fiat.jpg"
           width="200px"
@@ -237,10 +171,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Fiat.html" class="link"><h2>Fiat</h2></a>
+          <h2>Fiat</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Lancia()" class="box2">
         <img
           src="/image/Lancia.jpg"
           width="200px"
@@ -248,10 +182,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Lancia.html" class="link"><h2>Lancia</h2></a>
+         <h2>Lancia</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Opel()" class="box2">
         <img
           src="/image/opel.jpg"
           width="200px"
@@ -259,10 +193,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Opel.html" class="link"><h2>Opel</h2></a>
+          <h2>Opel</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Lotus()" class="box2">
         <img
           src="/image/Lotus.png"
           width="200px"
@@ -270,10 +204,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Lotus.html" class="link"><h2>Lotus</h2></a>
+          <h2>Lotus</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Mini()" class="box2">
         <img
           src="/image/mini.png"
           width="200px"
@@ -281,10 +215,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Mini.html" class="link"><h2>Mini</h2></a>
+         <h2>Mini</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="KTM()" class="box2">
         <img
           src="/image/KTM.jpg"
           width="200px"
@@ -292,10 +226,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/KTM.html" class="link"><h2>KTM</h2></a>
+         <h2>KTM</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Tesla()" class="box2">
         <img
           src="/image/Tesla.jpg"
           width="200px"
@@ -303,10 +237,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Tesla.html" class="link"><h2>Tesla</h2></a>
+          <h2>Tesla</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Tata()" class="box2">
         <img
           src="/image/Tata.jpg"
           width="200px"
@@ -314,10 +248,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Tata.html" class="link"><h2>Tata</h2></a>
+         <h2>Tata</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Force()" class="box2">
         <img
           src="/image/Force.jpg"
           width="200px"
@@ -325,10 +259,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Force.html" class="link"><h2>Force</h2></a>
+         <h2>Force</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Mahindra()" class="box2">
         <img
           src="/image/mahindra.jpg"
           width="200px"
@@ -336,12 +270,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Mahindra.html" class="link"
-            ><h2>Mahindra</h2></a
-          >
+          <h2>Mahindra</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Renault()" class="box2">
         <img
           src="/image/Renault.jpg"
           width="200px"
@@ -349,12 +281,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Renault.html" class="link"
-            ><h2>Renault</h2></a
-          >
+         <h2>Renault</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Rover()" class="box2">
         <img
           src="/image/Land Rover.jpg"
           width="200px"
@@ -362,12 +292,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Land Rover.html" class="link"
-            ><h2>Land Rover</h2></a
-          >
+          <h2>Land Rover</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="MG()" class="box2">
         <img
           src="/image/MG.jpg"
           width="200px"
@@ -375,10 +303,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/MG.html" class="link"><h2>MG</h2></a>
+         <h2>MG</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Pagani()" class="box2">
         <img
           src="/image/pagani.jpg"
           width="200px"
@@ -386,10 +314,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Pagani.html" class="link"><h2>Pagani</h2></a>
+          <h2>Pagani</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Buick()" class="box2">
         <img
           src="/image/Buick.jpg"
           width="200px"
@@ -397,10 +325,10 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Buick.html" class="link"><h2>Buick</h2></a>
+         <h2>Buick</h2>
         </center>
       </div>
-      <div class="box2">
+      <div onclick="Maybach()" class="box2">
         <img
           src="/image/Maybach.png"
           width="200px"
@@ -408,13 +336,11 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Maybach.html" class="link"
-            ><h2>Maybach</h2></a
-          >
+          <h2>Maybach</h2>
         </center>
       </div>
 
-      <div class="box2">
+      <div onclick="corvette()" class="box2">
         <img
           src="/image/Chevrolet corvette.jpg"
           width="200px"
@@ -422,27 +348,25 @@
           alt="car"
         />
         <center>
-          <a href="/cars/Chevrolet corvette.html" class="link"
-            ><h2>Chevrolet corvette</h2></a
-          >
+          <h2>Chevrolet corvette</h2>
         </center>
       </div>
     </center>
     <br />
     <br />
     <div class="button-container1">
-      <button class="button-3d">
+      <button onclick="prevpage()" class="button-3d">
         <div class="button-top">
-          <span class="material-icons"><a href="index.html" class="link">❮</a></span>
+          <span class="material-icons">❮</span>
         </div>
         <div class="button-bottom"></div>
         <div class="button-base"></div>
       </button>
       
-      <button class="button-3d">
+      <button onclick="nextpage()" class="button-3d">
       
         <div class="button-top">
-          <span class="material-icons"><a href="index2.html" class="link">❯</a></span>
+          <span class="material-icons">❯</span>
         </div>
         <div class="button-bottom"></div>
         <div class="button-base"></div>
@@ -494,6 +418,7 @@
         <p>&copy; 2025 Cars HubX:FOR Car Enthusiasts Wallpaper& History by Sahaya Helvin </p>
     </footer>
   </div>
+  <script src="index.js"></script>
   
   </body>
 </html>

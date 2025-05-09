@@ -1,12 +1,199 @@
+// Handle the left navigation button (❮)
+function prevpage() {
+    window.location.href = "index.html"; 
+  }
+// Handle the right navigation button (❯)
+function nextpage() {
+    window.location.href = "index2.html"; 
+  }
+  //login button
+function login() {
+    window.location.href = "login.html"; 
+  }
+  //send email button
+  function sendemail() {
+    alert("An email has been sent to your address!");
+  }
+  //sign up button
+  function submitme() {
+    alert("Successfully Create your Account");
+  }
+  //first page box
+  function bmw() {
+    window.location.href = "/cars/bmw.html"; 
+  }
+  function benz() {
+    window.location.href = "/cars/Mercedes Benz.html"; 
+  }
+  function Ferrari() {
+    window.location.href = "/cars/Ferrari.html"; 
+  }
+  function Lamborghini() {
+    window.location.href = "/cars/Lamborghini.html"; 
+  }
+  function Porsche() {
+    window.location.href = "/cars/Porsche.html" ; 
+  }
+  function Ford() {
+    window.location.href ="/cars/Ford.html"; 
+  }
+  //first page box 2
+  function Audi() {
+    window.location.href = "/cars/Audi.html" ; 
+  }
+  function Dodge() {
+    window.location.href = "/cars/Dodge.html"; 
+  }
+  function Toyota() {
+    window.location.href = "/cars/Toyota.html"; 
+  }
+  function Jeep() {
+    window.location.href = "/cars/Jeep.html" ; 
+  }
+  function Jaguar() {
+    window.location.href = "/cars/Jaguar.html"; 
+  }
+  function Maserati() {
+    window.location.href ="/cars/Maserati.html"; 
+  }
+  function Bentley() {
+    window.location.href ="/cars/Bentley.html" ; 
+  }
+  function Nissan() {
+    window.location.href ="/cars/Nissan.html" ; 
+  }
+  function Alfa() {
+    window.location.href ="/cars/Alfa Romeo.html"; 
+  }
+  function Honda() {
+    window.location.href ="/cars/Honda.html"; 
+  }
+  function Hyundai() {
+    window.location.href ="/cars/Hyundai.html"; 
+  }
+  function Chrysleri() {
+    window.location.href ="/cars/Chrysler.html"; 
+  }
+  function Cadillac() {
+    window.location.href ="/cars/Cadillac.html"; 
+  }
+  function Mazda() {
+    window.location.href ="/cars/Mazda.html"; 
+  }
+  function Bugatti() {
+    window.location.href ="/cars/Bugatti.html"; 
+  }
+  function Lexus() {
+    window.location.href ="/cars/Lexus.html"; 
+  }
+  function RR() {
+    window.location.href ="/cars/Rolls Royce.html"; 
+  }
+  function Acura() {
+    window.location.href ="/cars/Acura.html"; 
+  }
+  function Aston() {
+    window.location.href ="/cars/Aston Martin.html"; 
+  }
+  function Chevrolet() {
+    window.location.href ="/cars/Chevrolet.html"; 
+  }
+  function Kia() {
+    window.location.href ="/cars/Kia.html"; 
+  }
+  function volkswagen() {
+    window.location.href ="/cars/volkswagen.html"; 
+  }
+  //second page box
 
-document.querySelector('.button-3d .link[href="index.html"]').addEventListener('click', function (event) {
-    event.preventDefault(); 
-    alert('Navigating to the previous page!');
-    window.location.href = 'index.html'; 
-});
+  function Volvo() {
+    window.location.href ="/cars/Volvo.html" ; 
+  }
+  function Skoda() {
+    window.location.href ="/cars/Skoda.html"; 
+  }
+  function mclaren() {
+    window.location.href ="/cars/mclaren.html"; 
+  }
+  function GMC() {
+    window.location.href ="/cars/GMC.html"; 
+  }
+  function Infiniti() {
+    window.location.href ="/cars/Infiniti.html"; 
+  }
+  function Lincoln() {
+    window.location.href ="/cars/Lincoln.html"; 
+  }
+  function Pontiac() {
+    window.location.href ="/cars/Pontiac.html"; 
+  }
+  //second page box 2
+  function Saab() {
+    window.location.href ="/cars/Saab.html" ; 
+  }
+  function Genesis() {
+    window.location.href ="/cars/Genesis.html" ; 
+  }
+  function Suzuki() {
+    window.location.href ="/cars/Suzuki.html" ; 
+  }
+  function Mitsubishi() {
+    window.location.href ="/cars/Mitsubishi.html" ; 
+  }
+  function Citroen() {
+    window.location.href ="/cars/Citroen.html"; 
+  }
+  function Fiat() {
+    window.location.href ="/cars/Fiat.html" ; 
+  }
+  function Lancia() {
+    window.location.href ="/cars/Lancia.html" ; 
+  }
+  function Opel() {
+    window.location.href ="/cars/Opel.html" ; 
+  }
+  function Lotus() {
+    window.location.href ="/cars/Lotus.html" ; 
+  }
+  function Mini() {
+    window.location.href ="/cars/Mini.html" ; 
+  }
+  function KTM() {
+    window.location.href ="/cars/KTM.html" ; 
+  }
+  function Tesla() {
+    window.location.href ="/cars/Tesla.html" ; 
+  }
+  function Tata() {
+    window.location.href ="/cars/Tata.html" ; 
+  }
+  function Force() {
+    window.location.href ="/cars/Force.html" ; 
+  }
+  function Mahindra() {
+    window.location.href ="/cars/Mahindra.html"; 
+  }
+  function Renault() {
+    window.location.href ="/cars/Renault.html"; 
+  }
+  function Rover() {
+    window.location.href ="/cars/Land Rover.html"; 
+  }
+  function MG() {
+    window.location.href ="/cars/MG.html"; 
+  }
+  function Pagani() {
+    window.location.href ="/cars/Pagani.html" ; 
+  }
+  function Buick() {
+    window.location.href ="/cars/Buick.html"; 
+  }
+  function Maybach() {
+    window.location.href ="/cars/Maybach.html"; 
+  }
+  function corvette() {
+    window.location.href ="/cars/Chevrolet corvette.html"; 
+  }
 
-document.querySelector('.button-3d .link[href="index2.html"]').addEventListener('click', function (event) {
-    event.preventDefault();
-    alert('Navigating to the next page!');
-    window.location.href = 'index2.html';
-});
+
+
